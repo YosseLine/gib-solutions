@@ -15,9 +15,18 @@ button.navbar-toggle.btn-no-border, .navbar-toggle:focus{
 nav.navbar.navbar-default.nav-margin-btn-0{
   margin-bottom: 0px;
 }
+nav.padding-nav{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 /*Estilos hero*/
-nav div.container-fluid.container-padding-0{
+section div.container-fluid.container-padding-0, div.col-xs-12.container-padding-0{
   padding-right: 0;
   padding-left: 0;
+}
+
+div.row.row-margin-0{
+  margin-right: 0;
+  margin-left: 0;
 }
