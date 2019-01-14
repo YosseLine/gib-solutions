@@ -1,0 +1,14 @@
+
+/*Estilos para navbar*/
+.logo-gib{
+  width: 80px;
+}
+button.navbar-toggle.btn-no-background, .navbar-toggle.navbar-toggle:hover{
+  background-color: inherit;
+}
+button.btn-no-background.navbar-toggle.navbar-toggle:hover, .navbar-toggle.navbar-toggle:focus{
+  background-color: inherit;
+}
+button.navbar-toggle.btn-no-border, .navbar-toggle:focus{
+  border-color: transparent;
+}
