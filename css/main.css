@@ -12,3 +12,12 @@ button.btn-no-background.navbar-toggle.navbar-toggle:hover, .navbar-toggle.navba
 button.navbar-toggle.btn-no-border, .navbar-toggle:focus{
   border-color: transparent;
 }
+nav.navbar.navbar-default.nav-margin-btn-0{
+  margin-bottom: 0px;
+}
+
+/*Estilos hero*/
+nav div.container-fluid.container-padding-0{
+  padding-right: 0;
+  padding-left: 0;
+}
