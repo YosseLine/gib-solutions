@@ -30,3 +30,9 @@ div.row.row-margin-0{
   margin-right: 0;
   margin-left: 0;
 }
+div.item.height-img-movile{
+  height: 60vh;
+}
+div.item.height-img-movile img{
+  height: -webkit-fill-available;
+}
