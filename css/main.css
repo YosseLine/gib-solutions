@@ -21,6 +21,19 @@ section.margin-section{
 .center-align{
   text-align: center;
 }
+.list-style-none{
+  list-style: none;
+  outline: inherit;
+}
+a.color-links-footer{
+  color: black;
+}
+h4.font-weight{
+  font-weight: bold;
+}
+footer ul.ulf-padding-btm{
+  padding-bottom: 40px;
+}
 /*Estilos para navbar*/
 .logo-gib{
   width: 80px;
@@ -69,4 +82,9 @@ div.item.height-img-movile img{
   background-size: cover;
   shape-outside: polygon(0 0, 100% 0, 45% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 45% 100%, 0 100%);
+}
+
+/*Estilos para footer*/
+footer{
+  background-color: #e7e7e7;
 }
