@@ -88,3 +88,11 @@ div.item.height-img-movile img{
 footer{
   background-color: #e7e7e7;
 }
+
+
+/*Modificando responsive*/
+@media (min-width: 768px){
+  #shaped {
+    height: 40vh;
+  }
+}
