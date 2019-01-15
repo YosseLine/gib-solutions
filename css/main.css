@@ -1,4 +1,26 @@
-
+/*Clases reutilizables*/
+.flex-direction-column{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-box {
+  padding: 30px;
+}
+.content-box-section2{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+section.margin-section{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.center-align{
+  text-align: center;
+}
 /*Estilos para navbar*/
 .logo-gib{
   width: 80px;
@@ -35,4 +57,16 @@ div.item.height-img-movile{
 }
 div.item.height-img-movile img{
   height: -webkit-fill-available;
+}
+
+/*Estilos primera sección*/
+#shaped{
+  height: 60vh;
+  width: 40vw;
+  float: left;
+  margin: 0 20px 0 0;
+  background: url('../assets/images/image.jpg') center top no-repeat;
+  background-size: cover;
+  shape-outside: polygon(0 0, 100% 0, 45% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 45% 100%, 0 100%);
 }
