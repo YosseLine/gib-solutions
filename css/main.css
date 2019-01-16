@@ -48,11 +48,21 @@ button.navbar-toggle.btn-no-border, .navbar-toggle:focus{
   border-color: transparent;
 }
 nav.navbar.navbar-default.nav-margin-btn-0{
+  border-color: transparent;
   margin-bottom: 0px;
 }
 nav.padding-nav{
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+/*Efectos en navbar*/
+
+.header .navbar {
+  background-color: rgba(231,231,231,0.5);
+}
+nav#navbar{
+  -webkit transition: background-color .5s;
 }
 
 /*Estilos hero*/
@@ -66,13 +76,11 @@ div.row.row-margin-0{
   margin-left: 0;
 }
 div.item.height-img-movile{
-  height: 60vh;
+  height: 80vh;
 }
 div.item.height-img-movile img{
   height: -webkit-fill-available;
-}
-section.hero{
-  margin-top: 71px;
+  width: -webkit-fill-available;
 }
 
 /*Estilos segunda sección*/
@@ -89,7 +97,7 @@ section.hero{
 
 /*Estilos para footer*/
 footer{
-  background-color: #e7e7e7;
+  background-color: rgb(231,231,231);
 }
 
 
@@ -105,9 +113,6 @@ footer{
     height: 30vh;
   }
 
-  div.item.height-img-movile img {
-    height: auto;
-  }
 }
 
 @media (min-width: 1200px){
@@ -116,7 +121,4 @@ footer{
     height: 40vh;
   }
 
-  div.item.height-img-movile {
-    height: 65vh;
-  }
 }
