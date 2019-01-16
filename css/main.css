@@ -71,8 +71,11 @@ div.item.height-img-movile{
 div.item.height-img-movile img{
   height: -webkit-fill-available;
 }
+section.hero{
+  margin-top: 71px;
+}
 
-/*Estilos primera sección*/
+/*Estilos segunda sección*/
 #shaped{
   height: 60vh;
   width: 40vw;
@@ -94,5 +97,26 @@ footer{
 @media (min-width: 768px){
   #shaped {
     height: 40vh;
+  }
+}
+
+@media (min-width: 992px){
+  #shaped {
+    height: 30vh;
+  }
+
+  div.item.height-img-movile img {
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px){
+  #shaped {
+    width: 20vw;
+    height: 40vh;
+  }
+
+  div.item.height-img-movile {
+    height: 65vh;
   }
 }
