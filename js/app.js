@@ -20,4 +20,35 @@ $(document).ready(function() {
       }
     }
   });
+
+// Redireccionando desde diferentes vistas.
+  $("#about-gs").click(
+    function () {
+      location.href = '../index.html#about-gib-solutions'
+    }
+  );
+
+  $("#about-us-gs").click(
+    function () {
+      location.href = '../index.html#about-us'
+    }
+  );
+
+  $("#objectives-gs").click(
+    function () {
+      location.href = '../index.html#our-objectives'
+    }
+  );
+
+  $("#clients-gs").click(
+    function () {
+      location.href = '../index.html#our-clients'
+    }
+  );
+
+  $("#contact-us-gs").click(
+    function () {
+      location.href = '../index.html#contact-us'
+    }
+  );
 });

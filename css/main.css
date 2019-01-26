@@ -40,6 +40,14 @@ section.margin-section{
 .justify{
   text-align: justify;
 }
+hr.hr-style-gib{
+  border-color: rgba(59,89,152,0.5);
+  max-width: 50px;
+  border-width: 3px;
+}
+.text-shadow{
+  text-shadow: 2px 2px 1px #000;
+}
 .list-style-none{
   list-style: none;
   outline: inherit;
@@ -76,10 +84,13 @@ nav.navbar.navbar-default.nav-margin-btn-0{
 nav{
    box-shadow: 2px 2px 10px #666;
 }
-nav.padding-nav{
-  padding: 20px;
+div.navbar-header.padding-nav{
+  padding: 20px 10px;
 }
 
+div.navbar-collapse.bs-example-js-navbar-collapse.collapse.padding-nav{
+  padding: 20px;
+}
 /*Efectos en navbar*/
 
 .header .navbar {
@@ -128,6 +139,18 @@ div.item.height-img-movile img{
   width: -webkit-fill-available;
 }
 
+.content-image-about-gib:hover{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: all .5s ease;
+}
+.image-about-gib{
+  border: 4px solid rgba(59,89,152,0.8);
+}
+.padding-second-section{
+  padding: 20px;
+}
 .card-contact{
   padding: 30px;
   border-radius: 50px;
@@ -159,6 +182,13 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  div.navbar-header.padding-nav{
+    padding: 20px;
+  }
+
+  div.navbar-collapse.bs-example-js-navbar-collapse.collapse.padding-nav{
+    padding: 20px;
   }
 }
 

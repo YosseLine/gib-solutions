@@ -16,16 +16,16 @@
     <!-- Mi css -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
-  
+
   <body>
     <!--Navbar-->
     <header class="header">
-      <nav id="navbar" class="navbar navbar-default nav-margin-btn-0 padding-nav navbar-fixed-top">
+      <nav id="navbar" class="navbar navbar-default nav-margin-btn-0 navbar-fixed-top">
         <div class="container-fluid">
            <div class="row">
              <div class="col-xs-12">
                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
+                <div class="navbar-header padding-nav">
                   <button class="collapsed navbar-toggle btn-no-border btn-no-background" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -36,13 +36,15 @@
                </div>
 
                <!-- Collect the nav links, forms, and other content for toggling -->
-               <div class="navbar-collapse bs-example-js-navbar-collapse collapse" aria-expanded="false">
+               <div class="navbar-collapse bs-example-js-navbar-collapse collapse padding-nav" aria-expanded="false">
                  <ul class="nav navbar-nav navbar-right">
                    <li class="dropdown">
                      <a href="#" class="dropdown-toggle blue" id="drop1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong>Por qué Gib-Solutions</strong><span class="caret"></span> </a>
                      <ul class="dropdown-menu" aria-labelledby="drop1">
                         <li><a href="#about-gib-solutions" class="blue"><strong>Sobre Gib-Solutions</strong></a></li>
                         <li><a href="#about-us" class="blue"><strong>¿Quiénes somos?</strong></a></li>
+                        <li><a href="#our-objectives" class="blue"><strong>Nuestros objetivos</strong></a></li>
+                        <li><a href="#our-clients" class="blue"><strong>Nuestros clientes</strong></a></li>
                       </ul>
                    </li>
                    <li><a href="views/services-products.html" class="blue"><strong>Nuestros servicios y productos</strong></a></li>
@@ -72,8 +74,8 @@
                  <div class="item active height-img-movile">
                    <img src="assets/images/monitoreo1.jpg" alt="imagen 1" class="img-responsive">
                       <div class="carousel-caption">
-                        <h3>Especialistas</h3>
-                        <p>en soluciones de monitoreo y consultoría</p>
+                        <h3 class="text-shadow">Especialistas</h3>
+                        <p class="text-shadow">en soluciones de monitoreo y consultoría</p>
                       </div>
                     </div>
                   <div class="item height-img-movile">
@@ -106,7 +108,7 @@
               <div class="row">
                 <div class="col-sm-12">
                   <h1 class="center-align">Sobre Gib-Solutions</h1>
-                  <br>
+                  <hr class="hr-style-gib">
                 </div>
               </div>
               <div class="row">
@@ -120,9 +122,9 @@
                     </div>
                   </div>
                   <div class="col-xs-12 col-lg-6">
-                    <div class="flex">
+                    <div class="flex content-image-about-gib">
                       <br>
-                      <img src="assets/images/monitoring.png" alt="Monitoreo" class="img-responsive border-radius">
+                      <img src="assets/images/monitoring.png" alt="Monitoreo" class="img-responsive border-radius image-about-gib">
                     </div>
                   </div>
                 </div>
@@ -137,7 +139,7 @@
                 <div class="content-box">
                   <div class="col-sm-12">
                     <h1 class="center-align">¿Quiénes somos?</h1>
-                    <br>
+                    <hr class="hr-style-gib">
                   </div>
                 </div>
               </div>
@@ -153,11 +155,12 @@
           </section>
 
           <!--Tercera sección-->
-          <section class="margin-section">
+          <section class="margin-section" id="our-objectives">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-12">
                   <h1 class="center-align">Nuestros objetivos</h1>
+                  <hr class="hr-style-gib">
                 </div>
                 <div class="col-lg-4 col-sm-4">
                   <div class="content-box-section3">
@@ -165,7 +168,7 @@
                       <div class="flex-direction-column">
                         <img src="assets/images/mision.png" alt="Misión" width="140" height="140">
                       </div>
-                       <h2 class="center-align">Misión</h2>
+                       <h2 class="center-align"><strong class="blue">Misión</strong></h2>
                        <p class="center-align">Entregar métricas e indicadores para la gestión de calidad de los canales digitales y servicios de infraestructura tecnológica, que permitan realizar análisis para establecer y controlar los niveles de servicio, con el propósito de mejorar la satisfacción de los usuarios finales y contribuir al proceso de mejoramiento continuo.</p>
                     </div>
                   </div>
@@ -176,7 +179,7 @@
                       <div class="flex-direction-column">
                         <img src="assets/images/mision.png" alt="Misión" width="140" height="140">
                       </div>
-                       <h2 class="center-align">Visión</h2>
+                       <h2 class="center-align"><strong class="blue">Visión</strong></h2>
                        <p class="center-align">Ser el ente certificador y referente de la industria TI de la calidad de los canales digitales mediante soluciones tecnológicas que mejoren la experiencia de los usuarios finales.</p>
                     </div>
                   </div>
@@ -187,7 +190,7 @@
                       <div class="flex-direction-column">
                         <img src="assets/images/mision.png" alt="Misión" width="140" height="140">
                       </div>
-                       <h2 class="center-align">Propósito</h2>
+                       <h2 class="center-align"><strong class="blue">Propósito</strong></h2>
                        <p class="center-align">Proveer a nuestros clientes la más completa información sobre la calidad de sus canales digitales: Medición de parámetros percibidos por usuarios finales mediante monitoreo sintético y metodología Atentus. Visibilidad de plataforma TI (infraestructura) y desempeño de aplicaciones (APM) Seguimiento y análisis de las conexiones de usuarios reales (RUM). Ayudar a los clientes para identificar y mejorar el funcionamiento de sus canales digitales y plataformas TI, para mejorar el desempeño de sus aplicaciones y la percepción de sus usuarios.</p>
                     </div>
                   </div>
@@ -197,12 +200,12 @@
           </section>
 
           <!--Cuarta sección-->
-          <section class="margin-section background-gray content-max-box">
+          <section class="margin-section background-gray content-max-box" id="our-clients">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-lg-12">
                   <h1 class="center-align">Nuestros clientes</h1>
-                  <br>
+                  <hr class="hr-style-gib">
                 </div>
               </div>
               <div class="row">
@@ -239,6 +242,7 @@
               <div class="row">
                 <div class="col-sm-12">
                   <h1 class="center-align">Contáctenos</h1>
+                  <hr class="hr-style-gib">
                   <br>
                 </div>
               </div>
