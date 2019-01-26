@@ -1,0 +1,41 @@
+.style-box-products{
+  border: 1px solid;
+  padding: 30px 20px;
+  border-radius: 50px;
+}
+
+.style-box-services{
+  border: 1px solid;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  height: 220px;
+}
+
+.padding-box-products{
+  padding: 50px 0px;
+}
+.margin-section-products{
+  margin-top: 70px;
+}
+
+.flex-direction-inline{
+  align-items: center;
+}
+.margin-top-70{
+  margin-top: 0;
+}
+@media (min-width: 1200px){
+  .flex-direction-inline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .margin-top-70{
+    margin-top: 70px;
+  }
+
+  .style-box-products{
+    height: 540px;
+  }
+}

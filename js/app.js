@@ -10,12 +10,12 @@ $(document).ready(function() {
 
     if(scroll > 200){
       if(!flag){
-        $("#navbar").css({"background-color": "rgb(231,231,231)"});
+        $("#navbar").css({"background-color": "rgb(255,255,255)"});
         flag = true;
       }
     } else{
       if(flag){
-        $("#navbar").css({"background-color": "rgba(231,231,231,0.5)"});
+        $("#navbar").css({"background-color": "rgba(255,255,255,0.8)"});
         flag = false;
       }
     }

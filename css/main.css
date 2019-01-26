@@ -1,3 +1,10 @@
+body{
+  font-weight: 300;
+  font-family: futura bold font;
+}
+h1{
+  font-weight: bold;
+}
 /*Clases reutilizables*/
 .flex-direction-column{
   display: flex;
@@ -8,18 +15,24 @@
 .content-box {
   padding: 30px;
 }
-.content-box-section2{
+.content-max-box{
+  padding: 70px;
+}
+.content-box-section3{
   padding-right: 30px;
   padding-left: 30px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 section.margin-section{
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 70px;
+  margin-bottom: 80px;
 }
 .center-align{
   text-align: center;
+}
+.justify{
+  text-align: justify;
 }
 .list-style-none{
   list-style: none;
@@ -33,6 +46,9 @@ h4.font-weight{
 }
 footer ul.ulf-padding-btm{
   padding-bottom: 40px;
+}
+.background-gray{
+  background-color: rgba(52,58,64,0.05);  //rgba(140,120,120,0.05);
 }
 /*Estilos para navbar*/
 .logo-gib{
@@ -59,12 +75,30 @@ nav.padding-nav{
 /*Efectos en navbar*/
 
 .header .navbar {
-  background-color: rgba(231,231,231,0.5);
+  background-color: rgba(255,255,255,0.8);
 }
 nav#navbar{
   -webkit transition: background-color .5s;
 }
-
+.black{
+color: #322323;
+}
+.navbar-default .navbar-nav>li>a.black{
+  color: #322323;
+}
+.navbar-default .navbar-toggle .icon-bar.color-black{
+  background-color: #322323;
+}
+.navbar-default .navbar-nav>.open>a.black, .navbar-default .navbar-nav>.open>a.black:focus, .navbar-default{
+  color: #322323;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a{
+  background-color: transparent;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a.black{
+  color: #322323;
+}
 /*Estilos hero*/
 section div.container-fluid.container-padding-0, div.col-xs-12.container-padding-0{
   padding-right: 0;
@@ -83,42 +117,38 @@ div.item.height-img-movile img{
   width: -webkit-fill-available;
 }
 
-/*Estilos segunda sección*/
-#shaped{
-  height: 60vh;
-  width: 40vw;
-  float: left;
-  margin: 0 20px 0 0;
-  background: url('../assets/images/image.jpg') center top no-repeat;
-  background-size: cover;
-  shape-outside: polygon(0 0, 100% 0, 45% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 45% 100%, 0 100%);
+.card-contact{
+  padding: 30px;
+  border-radius: 50px;
+  border: 3px solid rgb(231,231,231);
+}
+.border-radius{
+  border-radius: 90px;
 }
 
 /*Estilos para footer*/
 footer{
-  background-color: rgb(231,231,231);
+  background-color: rgb(52,58,64);
+}
+.white{
+  color: #FFF;
 }
 
 
 /*Modificando responsive*/
 @media (min-width: 768px){
-  #shaped {
-    height: 40vh;
+  .content-box-section3{
+    padding-bottom: 0px;
   }
 }
 
 @media (min-width: 992px){
-  #shaped {
-    height: 30vh;
-  }
+
 
 }
 
 @media (min-width: 1200px){
-  #shaped {
-    width: 20vw;
-    height: 40vh;
+  .flex-direction-column{
+    flex-direction: initial;
   }
-
 }
