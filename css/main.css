@@ -58,7 +58,7 @@ footer ul.ulf-padding-btm{
 }
 /*Estilos para navbar*/
 .logo-gib{
-  width: 130px;
+  width: 150px;
 }
 button.navbar-toggle.btn-no-background, .navbar-toggle.navbar-toggle:hover{
   background-color: inherit;
@@ -77,8 +77,7 @@ nav{
    box-shadow: 2px 2px 10px #666;
 }
 nav.padding-nav{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 20px;
 }
 
 /*Efectos en navbar*/
