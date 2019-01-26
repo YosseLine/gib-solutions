@@ -4,6 +4,7 @@ $(document).ready(function() {
 
   var flag = false;
   var scroll;
+  var offset;
 
   $(window).scroll(function(){
     scroll = $(window).scrollTop();
@@ -24,19 +25,22 @@ $(document).ready(function() {
 // Redireccionando desde diferentes vistas.
   $("#about-gs").click(
     function () {
-      location.href = '../index.html#about-gib-solutions'
+      location.href = '../index.html#about-gib-solutions';
+      $("#about-gib-solutions").css({"offset": "1200"});
     }
   );
 
   $("#about-us-gs").click(
     function () {
-      location.href = '../index.html#about-us'
+      location.href = '../index.html#about-us';
+      offset:500;
     }
   );
 
   $("#objectives-gs").click(
     function () {
-      location.href = '../index.html#our-objectives'
+      location.href = '../index.html#our-objectives';
+      offset:500;
     }
   );
 

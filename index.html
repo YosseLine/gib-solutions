@@ -20,7 +20,7 @@
   <body>
     <!--Navbar-->
     <header class="header">
-      <nav id="navbar" class="navbar navbar-default nav-margin-btn-0 navbar-fixed-top padding-nav">
+      <nav id="navbar" class="navbar navbar-default nav-margin-btn-0 navbar-fixed-top padding-nav" data-scroll-header>
         <div class="container-fluid">
            <div class="row">
              <div class="col-xs-12">
@@ -39,16 +39,16 @@
                <div class="navbar-collapse bs-example-js-navbar-collapse collapse" aria-expanded="false">
                  <ul class="nav navbar-nav navbar-right">
                    <li class="dropdown">
-                     <a href="#" class="dropdown-toggle blue" id="drop1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong>Por qué Gib-Solutions</strong><span class="caret"></span> </a>
+                     <a href="#" class="dropdown-toggle blue" id="drop1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-scroll><strong>Por qué Gib-Solutions</strong><span class="caret"></span> </a>
                      <ul class="dropdown-menu" aria-labelledby="drop1">
-                        <li><a href="#about-gib-solutions" class="blue"><strong>Sobre Gib-Solutions</strong></a></li>
-                        <li><a href="#about-us" class="blue"><strong>¿Quiénes somos?</strong></a></li>
-                        <li><a href="#our-objectives" class="blue"><strong>Nuestros objetivos</strong></a></li>
-                        <li><a href="#our-clients" class="blue"><strong>Nuestros clientes</strong></a></li>
+                        <li><a href="#about-gib-solutions" class="blue" data-scroll><strong>Sobre Gib-Solutions</strong></a></li>
+                        <li><a href="#about-us" class="blue" data-scroll><strong>¿Quiénes somos?</strong></a></li>
+                        <li><a href="#our-objectives" class="blue" data-scroll><strong>Nuestros objetivos</strong></a></li>
+                        <li><a href="#our-clients" class="blue" data-scroll><strong>Nuestros clientes</strong></a></li>
                       </ul>
                    </li>
-                   <li><a href="views/services-products.html" class="blue"><strong>Nuestros servicios y productos</strong></a></li>
-                   <li><a href="#contact-us" class="blue"><strong>Contáctenos</strong></a></li>
+                   <li><a href="views/services-products.html" class="blue" data-scroll><strong>Nuestros servicios y productos</strong></a></li>
+                   <li><a href="#contact-us" class="blue" data-scroll><strong>Contáctenos</strong></a></li>
                  </ul>
                </div>
              </div>
@@ -280,5 +280,11 @@
     <script ype="text/javascript" src="vendor/bootstrap/js/bootstrap.js"></script>
     <script ype="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+    <!--Scroll-->
+    <script src="vendor/smooth-scroll.min.js"></script>
+    <script>
+       var scroll = new SmoothScroll('a[href*="#"]');
+       header :  ' [data-scroll-header] '
+    </script>
   </body>
 </html>
