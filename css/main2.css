@@ -1,14 +1,15 @@
 .style-box-products{
-  border: 1px solid;
+  border: 2px solid rgba(59,89,152,0.8);
   padding: 30px 20px;
   border-radius: 50px;
 }
 
 .style-box-services{
-  border: 1px solid;
+  border: 2px solid rgba(59,89,152,0.8);
   border-radius: 50px;
   margin-bottom: 30px;
   height: 220px;
+  padding: 10px;
 }
 
 .padding-box-products{
