@@ -66,7 +66,8 @@ footer ul.ulf-padding-btm{
 }
 /*Estilos para navbar*/
 .logo-gib{
-  width: 150px;
+  width: 95px;
+  height: 100%;
 }
 button.navbar-toggle.btn-no-background, .navbar-toggle.navbar-toggle:hover{
   background-color: inherit;
@@ -84,13 +85,13 @@ nav.navbar.navbar-default.nav-margin-btn-0{
 nav{
    box-shadow: 2px 2px 10px #666;
 }
-div.navbar-header.padding-nav{
-  padding: 20px 10px;
+nav.padding-nav{
+  padding: 10px;
+}
+a.navbar-brand.pull-left.padding-0{
+  padding: 0;
 }
 
-div.navbar-collapse.bs-example-js-navbar-collapse.collapse.padding-nav{
-  padding: 20px;
-}
 /*Efectos en navbar*/
 
 .header .navbar {
@@ -183,13 +184,6 @@ footer{
     align-items: center;
     justify-content: center;
   }
-  div.navbar-header.padding-nav{
-    padding: 15px;
-  }
-
-  div.navbar-collapse.bs-example-js-navbar-collapse.collapse.padding-nav{
-    padding: 15px;
-  }
 }
 
 @media (min-width: 992px){
@@ -201,5 +195,9 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  nav.padding-nav{
+    padding: 20px;
   }
 }
