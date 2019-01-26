@@ -184,11 +184,11 @@ footer{
     justify-content: center;
   }
   div.navbar-header.padding-nav{
-    padding: 20px;
+    padding: 15px;
   }
 
   div.navbar-collapse.bs-example-js-navbar-collapse.collapse.padding-nav{
-    padding: 20px;
+    padding: 15px;
   }
 }
 
