@@ -221,4 +221,8 @@ footer{
     width: 6.5rem;
     height: 6.5rem;
   }
+
+  .style-box-services {
+    height: 280px;
+  }
 }
