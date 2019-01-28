@@ -4,7 +4,6 @@ $(document).ready(function() {
 
   var flag = false;
   var scroll;
-  var offset;
 
   $(window).scroll(function(){
     scroll = $(window).scrollTop();
