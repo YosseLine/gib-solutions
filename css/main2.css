@@ -26,15 +26,6 @@
 .background-pandorafms{
   margin-bottom: 20px;
 }
-.background-pandorafms h2{
-  color: rgb(127,181,40);
-  font-weight: bold;
-}
-hr.hr-style-partners{
-  border-color: rgb(127,181,40);
-  max-width: 100%;
-  border-width: 4px;
-}
 
 @media (min-width: 1200px){
   .margin-top-70{
