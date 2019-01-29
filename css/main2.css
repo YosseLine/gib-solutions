@@ -17,25 +17,23 @@
   font-weight: bold;
 }
 .padding-box-products{
-  padding: 50px 0px;
+  padding: 80px 0px;
 }
-.margin-section-products{
-  margin-top: 125px;
+.padding-section-products{
+  padding-top: 160px;
 }
 
-.flex-direction-inline{
-  align-items: center;
+.background-pandorafms{
+  background-color: rgb(127,181,40);
+  padding: 10px 10px;
+  color: white;
+  margin-bottom: 20px;
 }
-.margin-top-70{
-  margin-top: 0;
+.background-pandorafms h2{
+  font-weight: bold;
 }
+
 @media (min-width: 1200px){
-  .flex-direction-inline{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .margin-top-70{
     margin-top: 70px;
   }
