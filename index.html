@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Gib-Solutions</title>
     <!--Color de barra de navegación que sólo se verá en versión movile-->
     <meta name="theme-color" content="#343A40"/>
@@ -11,7 +11,6 @@
     <link rel="icon" type="image/png" href="assets/images/logo-gs.png">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- CSS bootstrap -->
-    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
     <!-- Mi css -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -20,270 +19,74 @@
   <body>
     <!--Navbar-->
     <header class="header">
-      <nav id="navbar" class="navbar navbar-default nav-margin-btn-0 navbar-fixed-top padding-nav" data-scroll-header>
-        <div class="container-fluid">
-           <div class="row">
-             <div class="col-xs-12">
-               <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button class="collapsed navbar-toggle btn-no-border btn-no-background" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                 <a class="navbar-brand pull-left padding-0 logo-gib" href="index.html"><img src="assets/images/logo-gs.png" alt="Logo Gib-Solutions" class="img-responsive"></a>
-               </div>
-
-               <!-- Collect the nav links, forms, and other content for toggling -->
-               <div class="navbar-collapse bs-example-js-navbar-collapse collapse" aria-expanded="false">
-                 <ul class="nav navbar-nav navbar-right padding-top-header-ul">
-                   <li class="dropdown">
-                     <a href="#" class="dropdown-toggle blue" id="drop1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-scroll><strong>Por qué Gib-Solutions</strong><span class="caret"></span> </a>
-                     <ul class="dropdown-menu" aria-labelledby="drop1">
-                        <li><a href="#about-gib-solutions" class="blue" data-scroll><strong>Sobre Gib-Solutions</strong></a></li>
-                        <li><a href="#about-us" class="blue" data-scroll><strong>¿Quiénes somos?</strong></a></li>
-                        <li><a href="#our-objectives" class="blue" data-scroll><strong>Nuestros objetivos</strong></a></li>
-                        <li><a href="#our-clients" class="blue" data-scroll><strong>Nuestros clientes</strong></a></li>
-                      </ul>
-                   </li>
-                   <li><a href="views/services-products.html" class="blue" data-scroll><strong>Nuestros servicios y productos</strong></a></li>
-                   <li><a href="#contact-us" class="blue" data-scroll><strong>Contáctenos</strong></a></li>
-                 </ul>
-               </div>
-             </div>
-           </div>
-        </div><!-- /.container-fluid -->
+      <nav id="navbar" class="navbar navbar-expand-lg nav-margin-btn-0 navbar-fixed-top padding-nav" data-scroll-header>
+        <a class="navbar-brand padding-0 logo-gib" href="#"><img src="assets/images/logo-gs.png" alt="Logo Gib-Solutions" class="img-fluid d-inline-block align-top"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto  padding-top-header-ul">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <strong>Sobre Gib-Solutions</strong>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item blue" href="#about-gib-solutions"><strong>¿Quiénes somos?</strong></a>
+                <a class="dropdown-item blue" href="#about-us" data-scroll><strong>Nuestros objetivos</strong></a>
+                <a class="dropdown-item blue" href="#our-clients" data-scroll><strong>Nuestros clientes</strong></a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link blue" href="views/services-products.htm" data-scroll><strong>Nuestros servicios y productos</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link blue" href="#contact-us" data-scroll><strong>Contáctenos</strong></a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
     <!--Sección 'hero'-->
     <section class="hero">
-      <div class="container-fluid container-padding-0">
-        <div class="row row-margin-0">
-          <div class="col-xs-12 container-padding-0">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicadores -->
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-               </ol>
-
-               <!-- slider -->
-               <div class="carousel-inner" role="listbox">
-                 <div class="item active height-img-movile">
-                   <img src="assets/images/monitoreo1.jpg" alt="imagen 1" class="img-responsive filter-img">
-                      <div class="carousel-caption">
-                        <h3 class="text-shadow">¿Necesitas elegir la mejor solución de monitoreo?</h3>
-                      </div>
-                    </div>
-                  <div class="item height-img-movile">
-                    <img src="assets/images/monitoreo2.jpg" alt="imagen 2" class="img-responsive filter-img">
-                      <div class="carousel-caption">
-                        <h3 class="text-shadow">¡Servimos con pasión!</h3>
-                        <p class="text-shadow">La filosofía de nuestro equipo humano es la excelencia en el servicio.</p>
-                      </div>
-                    </div>
+      <div class="container-fluid">
+        <div class="row"> <!--row-margin-0-->
+          <div class="col-12">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <img src="assets/images/monitoreo1.jpg" alt="imagen 1" class="img-responsive filter-img">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-shadow">¿Necesitas elegir la mejor solución de monitoreo?</h5>
+                    <p class="text-shadow">...</p>
                   </div>
-
-                  <!-- Controles -->
-                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
                 </div>
-              </div>
-		 	       </div>
-		        </div>
-	        </section>
-
-          <!--Primera sección-->
-          <section class="margin-section content-box" id="about-gib-solutions">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-sm-12">
-                  <h1 class="center-align">Sobre Gib-Solutions</h1>
-                  <hr class="hr-style-gib">
-                </div>
-              </div>
-              <div class="row">
-                <div class="flex-direction">
-                  <div class="col-xs-12 col-lg-6">
-                    <div class="content-box">
-                      <br>
-                      <h4 class="center-align">Nuestra empresa está formada por un equipo de profesionales altamente calificados con amplia experiencia en desarrollo, gestión, implementación y soporte en soluciones de Monitoreo.</h4>
-                      <br>
-                      <h4 class="center-align"><strong>GIB </strong> Solutions cuenta con una cartera de clientes, grandes corporaciones nacionales y multinacionales, que depositan su confianza en nuestros servicios, y se convierten en socios estratégicos en la construcción de indicadores de calidad y satisfacción.</h4>
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-lg-6">
-                    <div class="flex content-image-about-gib">
-                      <br>
-                      <img src="assets/images/monitoring.png" alt="Monitoreo" class="img-responsive border-radius image-about-gib">
-                    </div>
+                <div class="carousel-item">
+                  <img src="assets/images/monitoreo2.jpg" alt="imagen 2" class="img-fluid filter-img">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-shadow">¡Servimos con pasión!</h5>
+                    <p class="text-shadow">La filosofía de nuestro equipo humano es la excelencia en el servicio.</p>
                   </div>
                 </div>
               </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+             </div>
             </div>
-          </section>
+		 	      </div>
+		       </div>
+	       </section>
 
-          <!--Segunda sección-->
-          <section class="margin-section background-gray padding-second-section" id="about-us">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="content-box">
-                  <div class="col-sm-12">
-                    <h1 class="center-align">¿Quiénes somos?</h1>
-                    <hr class="hr-style-gib">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-12 padding-second-section">
-                  <h4 class="center-align">Somos una empresa con muchos años de experiencia en diferentes soluciones de Monitoreo, lo que nos convierte en la consultora perfecta para ayudarte en la elección de la herramienta idónea que se ajuste a tus requerimientos. </h4>
-                  <br>
-                  <h4 class="center-align">Tenemos claro que muchas de las infraestructuras y aplicaciones no son las mismas; por este motivo, la mejor solución permitirá una eficiente administración de recursos, para una óptima atención en la resolución de incidencias.</h4>
-                </div>
-              </div>
-            </div>
-          </section>
 
-          <!--Tercera sección-->
-          <section class="margin-section" id="our-objectives">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-sm-12">
-                  <h1 class="center-align">Nuestros objetivos</h1>
-                  <hr class="hr-style-gib">
-                </div>
-                <div class="col-lg-4 col-sm-4">
-                  <div class="content-box-section3">
-                    <div class="content"> <!--content-box-->
-                      <div class="flex-direction-column">
-                        <img src="assets/images/mision.png" alt="Misión" width="140" height="140">
-                      </div>
-                       <h2 class="center-align"><strong class="blue">Misión</strong></h2>
-                       <p class="center-align">Brindar soluciones que apoyen en la gestión de procesos y mejora contínua, logrando calidad y eficiencia en nuestros servicios, mediante uso de buenas prácticas, logrando de esa manera excelencia y competitividad.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-sm-4">
-                  <div class="content-box-section3">
-                    <div class="content">
-                      <div class="flex-direction-column">
-                        <img src="assets/images/vision.png" alt="Visión" width="140" height="140">
-                      </div>
-                       <h2 class="center-align"><strong class="blue">Visión</strong></h2>
-                       <p class="center-align">Posicionarnos en el mercado como la empresa líder en consultorías TI, brindando las mejores soluciones tecnológicas a nuestros clientes.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-sm-4">
-                  <div class="content-box-section3">
-                    <div class="content">
-                      <div class="flex-direction-column">
-                        <img src="assets/images/proposito.png" alt="Propósito" width="140" height="140">
-                      </div>
-                       <h2 class="center-align"><strong class="blue">Propósito</strong></h2>
-                       <p class="center-align">Garantía de Calidad, Ecología, Ética Profesional, Innovación & Creatividad, Seguridad, Orientación a los resultados.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <!--Cuarta sección-->
-          <section class="margin-section background-gray content-max-box" id="our-clients">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-12">
-                  <h1 class="center-align">Nuestros clientes</h1>
-                  <hr class="hr-style-gib">
-                </div>
-              </div>
-              <div class="row">
-                <div class="content-box flex-five-section">
-                  <div class="col-xs-12 col-lg-3 flex">
-                    <img src="assets/images/telefonica.png" alt="Logo Telefónica" class="img-responsive">
-                  </div>
-                  <div class="col-xs-12 col-lg-3 flex">
-                    <img src="assets/images/ana.jpg" alt="Logo ANA" class="img-responsive">
-                  </div>
-                  <div class="col-xs-12 col-lg-3 flex">
-                    <img src="assets/images/distriluz.png" alt="Logo Distriluz" class="img-responsive">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="content-box flex-five-section">
-                  <div class="col-xs-12 col-lg-3 flex">
-                    <img src="assets/images/italtel.jpg" alt="Logo Italtel" class="img-responsive">
-                  </div>
-                  <div class="col-xs-12 col-lg-3 flex">
-                    <img src="assets/images/newrelic.png" alt="Logo New Relic" class="img-responsive">
-                  </div>
-                  <div class="col-xs-12 col-lg-3 flex">
-                    <img src="assets/images/sunarp.png" alt="Logo Sunarp" class="img-responsive">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section class="margin-section" id="contact-us">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-sm-12">
-                  <h1 class="center-align">Contáctenos</h1>
-                  <hr class="hr-style-gib">
-                  <br>
-                </div>
-              </div>
-              <div class="row">
-                <div class="flex-direction-column">
-                  <div class="col-lg-4">
-                    <div class="card-contact">
-                      <address class="center-align">
-                        <strong class="center-align">Gib-Solutions</strong><br>
-                          San Juan de Miraflores<br>
-                          Lima - Perú<br>
-                          <abbr title="Phone">Tel: </abbr> 939 113 366
-                      </address>
-                      <address class="center-align">
-                        <a href="mailto:#">contacto@gib-solutions.com</a>
-                      </address>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <footer class="content-box">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-sm-12">
-                  <p class="center-align white">Copyright © GIB Solutions 2019</p>
-                </div>
-              </div>
-            </div>
-          </footer>
 
     <script type="text/javascript" src="vendor/jQuery/jquery-3.2.1.min.js"></script>
-    <script ype="text/javascript" src="vendor/bootstrap/js/bootstrap.js"></script>
     <script ype="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
-    <!--Scroll-->
-    <script src="vendor/smooth-scroll.min.js"></script>
-    <script>
-       var scroll = new SmoothScroll('a[href*="#"]', {
-         header: '[data-scroll-header]'
-       });
-    </script>
   </body>
 </html>
