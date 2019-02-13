@@ -20,8 +20,8 @@ h1{
   align-items: center;
   justify-content: center;
 }
-.height-70{
-  height: 70vh;
+.height-85{
+  height: 85vh;
 }
 .content-box {
   padding: 20px;
@@ -72,8 +72,8 @@ footer ul.ulf-padding-btm{
   background-color: rgba(52,58,64,0.05);
 }
 img.filter-img{
-  filter: contrast(60%);
-  -webkit-filter: contrast(60%);
+  filter: contrast(85%);
+  -webkit-filter: contrast(85%);
 }
 .margin-btm-30{
   margin-bottom: 30px;
