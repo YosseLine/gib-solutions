@@ -43,6 +43,10 @@ section.margin-section{
   margin-top: 70px;
   margin-bottom: 80px;
 }
+section.padding-section{
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
 .center-align{
   text-align: center;
 }
@@ -69,7 +73,7 @@ footer ul.ulf-padding-btm{
   padding-bottom: 40px;
 }
 .background-gray{
-  background-color: rgba(52,58,64,0.05);
+  background-image: url('../assets/images/gris.jpg');
 }
 img.filter-img{
   filter: contrast(85%);
@@ -146,30 +150,38 @@ div img.img-fluid.filter-image-responsive{
 
 
 /*Primera sección*/
-.content-image-about-gib{
-  height: 100%;
+.zoom-effect-container {
+    width: fit-content;
+    height: 360px;
+    margin: 0 auto;
+    overflow: hidden;
 }
-.content-image-about-gib:hover{
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
-  transition: all .5s ease;
+.image-card img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
 }
-.image-about-gib{
-  border: 4px solid rgba(59,89,152,0.8);
+.zoom-effect-container:hover .image-card img, .zoom-effect-container-clients:hover .image-card img{
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
 }
+/*Segunda sección*/
 .padding-second-section{
   padding: 55px 20px;
 }
+.zoom-effect-container-clients {
+    width: fit-content;
+    margin: 0 auto;
+    overflow: hidden;
+}
 .card-contact{
   padding: 30px;
-  border-radius: 50px;
-  border: 3px solid rgba(59,89,152,0.8);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-.border-radius{
-  border-radius: 90px;
+.card-image{
+  padding: 50px;
 }
-
 /*Estilos para footer*/
 footer{
   background-color: rgb(52,58,64);
