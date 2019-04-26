@@ -111,6 +111,7 @@ a.navbar-brand.padding-0{
 }
 nav#navbar{
   -webkit transition: background-color .5s;
+  transition: 0.5s ease-in-out;
 }
 .blue{
 color: rgb(59,89,152);
@@ -160,7 +161,7 @@ div img.img-fluid.filter-image-responsive{
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
 }
-.zoom-effect-container:hover .image-card img, .zoom-effect-container-clients:hover .image-card img{
+.zoom-effect-container:hover .image-card img{
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
 }
@@ -173,6 +174,7 @@ div img.img-fluid.filter-image-responsive{
     margin: 0 auto;
     overflow: hidden;
 }
+
 .card-contact{
   padding: 30px;
   display: flex;
