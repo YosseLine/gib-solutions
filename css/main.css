@@ -161,7 +161,7 @@ div img.img-fluid.filter-image-responsive{
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
 }
-.zoom-effect-container:hover .image-card img{
+.zoom-effect-container:hover .image-card img, .zoom-effect-container-clients:hover .image-card img{
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
 }
