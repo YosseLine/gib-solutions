@@ -2,6 +2,9 @@ body{
   font-weight: 200;
   font-family: 'Roboto', sans-serif;
 }
+/*html{
+  scroll-behavior: smooth;
+}ñ*/
 h1{
   font-weight: bold;
   color: rgb(59,89,152);

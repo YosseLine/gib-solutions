@@ -20,33 +20,4 @@ $(document).ready(function() {
       }
     }
   });
-
-  // Redireccionando desde diferentes vistas.
-
-   $("#about-us-gs").click(
-     function () {
-       location.href = '../index.html#about-us';
-       offset:500;
-     }
-   );
-
-   $("#objectives-gs").click(
-     function () {
-       location.href = '../index.html#our-objectives';
-       offset:500;
-     }
-   );
-
-   $("#clients-gs").click(
-     function () {
-       location.href = '../index.html#our-clients'
-     }
-   );
-
-   $("#contact-us-gs").click(
-     function () {
-       location.href = '../index.html#contact-us'
-     }
-   );
-
 });
