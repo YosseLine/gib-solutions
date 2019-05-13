@@ -6,7 +6,17 @@ html{
   padding: 30px 20px;
   border-radius: 50px;
 }
-
+/*Clases reutilizables*/
+.flex-direction-row{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+h5{
+  font-weight: bold;
+  color: rgb(59,89,152);
+}
 .style-box-services{
   opacity: .99;
   overflow: hidden;
