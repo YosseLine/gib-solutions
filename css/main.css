@@ -2,12 +2,13 @@ body{
   font-weight: 200;
   font-family: 'Roboto', sans-serif;
 }
-/*html{
-  scroll-behavior: smooth;
-}ñ*/
+
 h1{
   font-weight: bold;
   color: rgb(59,89,152);
+}
+h3.gib-sol-style{
+  font-family: 'Roboto Mono', monospace;
 }
 /*Clases reutilizables*/
 .flex-direction-column{
@@ -88,8 +89,8 @@ img.filter-img{
 
 /*Estilos para navbar*/
 a.navbar-brand.padding-0.logo-gib{
-  width: 3rem;
-  height: 3rem;
+  width: 5rem;
+  height: 4rem;
 }
 
 nav{
