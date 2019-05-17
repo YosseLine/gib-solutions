@@ -156,8 +156,6 @@ div img.img-fluid.filter-image-responsive{
 
 /*Primera sección*/
 .zoom-effect-container {
-    width: fit-content;
-    height: 360px;
     margin: 0 auto;
     overflow: hidden;
 }
