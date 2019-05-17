@@ -89,8 +89,8 @@ img.filter-img{
 
 /*Estilos para navbar*/
 a.navbar-brand.padding-0.logo-gib{
-  width: 5rem;
-  height: 4rem;
+  width: 7rem;
+  height: 3rem;
 }
 
 nav{
@@ -213,8 +213,8 @@ footer{
   }
 
   a.navbar-brand.padding-0.logo-gib{
-    width: 5rem;
-    height: 5rem;
+    width: 8rem;
+    height: 4rem;
   }
 
   .padding-top-header-ul{
@@ -242,5 +242,9 @@ footer{
 
   .margin-top-70{
     margin-top: 70px;
+  }
+  a.navbar-brand.padding-0.logo-gib{
+    width: 7rem;
+    height: 3.5rem;
   }
 }
